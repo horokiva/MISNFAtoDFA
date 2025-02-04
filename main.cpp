@@ -1,4 +1,4 @@
-#ifndef __PROGTEST__
+#ifndef __PROJECT__
 #include <algorithm>
 #include <cassert>
 #include <cstdint>
@@ -270,7 +270,7 @@ bool run(const DFA& dfa, const Word& word) {
     return dfa.finalStates.count(currentState) > 0;
 }
 
-#ifndef __PROGTEST__
+#ifndef __PROJECT__
 int main()
 {
     MISNFA in0 = {
