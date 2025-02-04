@@ -29,6 +29,6 @@ Cílem projektu je implementovat algoritmus pro převod Modifikovaného Nedeterm
 
 ## Technologie:
 - Jazyk: C++
-- Standard: C++20 (využití operator== pro DFA)
+- Standard: C++20 (využití `operator==` pro DFA)
 - Datové struktury: `std::set`, `std::map`, `std::queue`
 - Testovací framework: `assert`
